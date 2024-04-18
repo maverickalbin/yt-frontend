@@ -1,3 +1,4 @@
+
 .video-preview{
     margin-top: 30px;
     font-family: Roboto;
@@ -11,6 +12,7 @@
 .thumbnail{
     width: 300px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .video-description{
@@ -21,6 +23,7 @@
 
 .video-info{
     font-family: Roboto;
+    margin-left: 10px;
 }
 
 .channel-profile{
@@ -31,28 +34,32 @@
 .channel-profilepic{
     width: 50px;
     border-radius: 26px;
+    cursor: pointer;
 }
 
-.video-info{
-    margin-left: 10px;
-}
+
 
 .video-title{
     margin-bottom: 0px;
     vertical-align: top;
     margin-top: 0px;
+    line-height: 18px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .video-author{
     margin-top: 5px;
     margin-bottom: 0px;
     color: rgb(96, 96, 96);
-    font-size: 15px;
+    font-size: 13px;
+    cursor: pointer;
 }
 
 .video-stat{
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 0px;
     color: rgb(96, 96, 96);
-    font-size: 15px;
+    font-size: 13px;
 }
+
